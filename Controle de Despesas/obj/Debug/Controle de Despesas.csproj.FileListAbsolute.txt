@@ -1,0 +1,10 @@
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\bin\Debug\Controle de Despesas.exe.config
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\bin\Debug\Controle de Despesas.exe
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\bin\Debug\Controle de Despesas.pdb
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\obj\Debug\Controle de Despesas.csprojResolveAssemblyReference.cache
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\obj\Debug\Controle_de_Despesas.Form1.resources
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\obj\Debug\Controle_de_Despesas.Properties.Resources.resources
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\obj\Debug\Controle de Despesas.csproj.GenerateResource.Cache
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\obj\Debug\Controle de Despesas.exe
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\obj\Debug\Controle de Despesas.pdb
+C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\obj\Debug\Controle_de_Despesas.Form2.resources
