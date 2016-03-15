@@ -49,17 +49,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lGVrEEKgXbehWkJgsHCi08OQNo2y3JipO49XGy2KiFQ=</dsig:DigestValue>
+        <dsig:DigestValue>1Z103T/XnkLts7xT55p/Vx2ZvW0P7anhg21J2tmcF3k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Controle de Despesas.exe.config" size="189">
+  <file name="Controle de Despesas.exe.config" size="184">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+      <dsig:DigestValue>FqWy0dfMmRS85zkU1NlW07p6LsNOPUHodvLiZcFdgJY=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

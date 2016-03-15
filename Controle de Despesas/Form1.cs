@@ -18,7 +18,7 @@ namespace Controle_de_Despesas
         {
             InitializeComponent();
 
-            mainDirectory = System.Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + @"\Despesas\";
+            mainDirectory = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + @"\Despesas\";
             string []anoFolders = System.IO.Directory.GetDirectories(mainDirectory);
             Console.WriteLine(mainDirectory);
             
@@ -59,13 +59,19 @@ namespace Controle_de_Despesas
             selectedAno = comboBoxAno.Text;
             Console.WriteLine(selectedAno);           
             mes.Clear();
+            comboBoxMes.DataSource = null;
             string[] mesFolders = System.IO.Directory.GetDirectories(mainDirectory + comboBoxAno.Text);
-            foreach (var folder in mesFolders)
-            {
-                string temp = folder.Substring(folder.LastIndexOf(@"\") + 1);
-                
+            Console.WriteLine(mesFolders.Length);
+            for (int i = 0; i< mesFolders.Length; i++) {
+                string temp = mesFolders[i].Substring(mesFolders[i].LastIndexOf(@"\") + 1);
+                // Console.WriteLine(mes.Count);
+                comboBoxMes.Enabled = true;
                 mes.Add(temp);
+ //               Console.WriteLine(mes.Count);
             }
+            
+
+
             if (mes.Count == 0)
             {
                 comboBoxMes.Enabled = false;
@@ -76,7 +82,8 @@ namespace Controle_de_Despesas
                 comboBoxMes.Enabled = true;
                 button1.Enabled = true;
                 button2.Enabled = true;
-                
+                comboBoxMes.DataSource = mes;
+
             }
             
 
@@ -89,7 +96,7 @@ namespace Controle_de_Despesas
             if (comboBoxMes.SelectedIndex == -1)
             {
                 string[] mesFolders = System.IO.Directory.GetDirectories(mainDirectory + comboBoxAno.Text);
-                string folder = mesFolders[0].Substring(mesFolders[0].LastIndexOf(@"\") + 1);
+                string folder = mesFolders[0].Substring(mesFolders[0].LastIndexOf(@"\")+1);
                 comboBoxMes.SelectedIndex = 0;
                 comboBoxMes.Text = folder;
                 selectedMes = comboBoxMes.Text;
