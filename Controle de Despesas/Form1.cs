@@ -18,9 +18,9 @@ namespace Controle_de_Despesas
         {
             InitializeComponent();
 
-            mainDirectory = @"C:\Users\migue\Desktop\Despesas\";
+            mainDirectory = System.Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + @"\Despesas\";
             string []anoFolders = System.IO.Directory.GetDirectories(mainDirectory);
-            Console.WriteLine(Environment.UserName);
+            Console.WriteLine(mainDirectory);
             
             foreach (var folder in anoFolders)
             {

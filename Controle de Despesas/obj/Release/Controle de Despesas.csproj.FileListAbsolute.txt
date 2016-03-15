@@ -9,3 +9,20 @@ C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despe
 C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\obj\Release\Controle de Despesas.pdb
 C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\obj\Release\Controle_de_Despesas.Form3.resources
 C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\Controle de Despesas\Controle de Despesas\obj\Release\Controle_de_Despesas.Despesas.resources
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\bin\Release\Controle de Despesas.exe.config
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle de Despesas.exe
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle de Despesas.pdb
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\bin\Release\Controle de Despesas.exe.manifest
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\bin\Release\Controle de Despesas.application
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\bin\Release\Controle de Despesas.exe
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\bin\Release\Controle de Despesas.pdb
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle de Despesas.csprojResolveAssemblyReference.cache
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle_de_Despesas.Despesas.resources
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle_de_Despesas.Form1.resources
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle_de_Despesas.Form2.resources
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle_de_Despesas.Form3.resources
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle_de_Despesas.Properties.Resources.resources
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle de Despesas.csproj.GenerateResource.Cache
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle de Despesas.exe.manifest
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Release\Controle de Despesas.application
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\bin\Release\System.Net.Http.dll
