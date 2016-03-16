@@ -24,3 +24,4 @@ C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despe
 C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Debug\Controle de Despesas.csproj.GenerateResource.Cache
 C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Debug\Controle de Despesas.exe.manifest
 C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\obj\Debug\Controle de Despesas.application
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle de Despesas\Controle-de-Despesas\Controle de Despesas\bin\Debug\System.Net.Http.dll

@@ -96,13 +96,29 @@ namespace Controle_de_Despesas
             if (comboBoxMes.SelectedIndex == -1)
             {
                 string[] mesFolders = System.IO.Directory.GetDirectories(mainDirectory + comboBoxAno.Text);
-                string folder = mesFolders[0].Substring(mesFolders[0].LastIndexOf(@"\")+1);
+                string folder = mesFolders[0].Substring(mesFolders[0].LastIndexOf(@"\") + 1);
                 comboBoxMes.SelectedIndex = 0;
                 comboBoxMes.Text = folder;
                 selectedMes = comboBoxMes.Text;
                 return;
             }
+            else {
+                string[] despesaFolders = System.IO.Directory.GetDirectories(mainDirectory + comboBoxAno.Text + @"\" + comboBoxMes.Text);
+                foreach (var folder in despesaFolders)
+                {
 
+                    //Console.WriteLine(folder);
+                    string tempDespesa = folder.Substring(folder.LastIndexOf(@"\") + 1);
+                    Console.WriteLine(tempDespesa);
+                    string fornecedor = tempDespesa.Substring(0, tempDespesa.IndexOf("-"));
+                    Console.WriteLine(fornecedor);
+                    string despesa = tempDespesa.Substring(tempDespesa.IndexOf("-")+1);
+                    Console.WriteLine(despesa);
+                    ListViewItem item = new ListViewItem(fornecedor);
+                    item.SubItems.Add(despesa);
+                    listView2.Items.Add(item);
+                }
+            }
             
             selectedMes = comboBoxMes.Text;
         }
@@ -142,7 +158,9 @@ namespace Controle_de_Despesas
                     button1.Enabled = true;
                     button2.Enabled = true;
                 }
-            } 
+            }
+            
+             
                         
             
         }
@@ -152,13 +170,20 @@ namespace Controle_de_Despesas
             
             string folderPath = mainDirectory + selectedAno +@"\"+ selectedMes + @"\";
             Console.WriteLine(folderPath);
-            Despesas despesas = new Despesas(folderPath);
+            Despesas despesas = new Despesas(this,folderPath);
             despesas.ShowDialog();
         }
 
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+        }
+
+        public void registrarDespesa(string fornecedor, string despesa) {
+            ListViewItem item = new ListViewItem(fornecedor);
+            item.SubItems.Add(despesa);
+            listView2.Items.Add(item);
 
         }
     }

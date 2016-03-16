@@ -34,6 +34,8 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -44,8 +46,6 @@
             this.addMes = new System.Windows.Forms.Button();
             this.comboBoxMes = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -99,7 +99,7 @@
             this.columnHeader3,
             this.columnHeader4});
             this.listView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.FullRowSelect = true;
             this.listView2.GridLines = true;
             this.listView2.HideSelection = false;
@@ -113,12 +113,12 @@
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Despesa";
-            this.columnHeader3.Width = 203;
+            this.columnHeader3.Text = "Fornecedor";
+            this.columnHeader3.Width = 204;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Fornecedor";
+            this.columnHeader4.Text = "Despesa";
             this.columnHeader4.Width = 226;
             // 
             // flowLayoutPanel2
@@ -132,6 +132,28 @@
             this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(3);
             this.flowLayoutPanel2.Size = new System.Drawing.Size(440, 53);
             this.flowLayoutPanel2.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(6, 6);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 36);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Inserir Despesa";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(141, 6);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(210, 36);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Importar Despesas de Planilha";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // flowLayoutPanel3
             // 
@@ -249,28 +271,6 @@
             this.label2.Size = new System.Drawing.Size(39, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mês";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(6, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 36);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Inserir Despesa";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(141, 6);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(210, 36);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Importar Despesas de Planilha";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
