@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Windows.Forms;
 
+
 namespace Controle_de_Despesas
 {
     public partial class Form1 : Form
@@ -91,7 +92,7 @@ namespace Controle_de_Despesas
 
         private void comboBoxMes_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            listView2.Items.Clear();
 
             if (comboBoxMes.SelectedIndex == -1)
             {
@@ -110,9 +111,9 @@ namespace Controle_de_Despesas
                     //Console.WriteLine(folder);
                     string tempDespesa = folder.Substring(folder.LastIndexOf(@"\") + 1);
                     Console.WriteLine(tempDespesa);
-                    string fornecedor = tempDespesa.Substring(0, tempDespesa.IndexOf("-"));
+                    string fornecedor = tempDespesa.Substring(0, tempDespesa.IndexOf(";"));
                     Console.WriteLine(fornecedor);
-                    string despesa = tempDespesa.Substring(tempDespesa.IndexOf("-")+1);
+                    string despesa = tempDespesa.Substring(tempDespesa.IndexOf(";")+1);
                     Console.WriteLine(despesa);
                     ListViewItem item = new ListViewItem(fornecedor);
                     item.SubItems.Add(despesa);
@@ -177,6 +178,7 @@ namespace Controle_de_Despesas
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
 
         }
 
